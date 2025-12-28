@@ -3,7 +3,7 @@ from backend import train_model, get_intent, get_ai_response
 
 st.title("AI Chatbot")
 
-# Train model once
+# Train model 
 train_model()
 
 # User input
@@ -24,7 +24,7 @@ if st.button("Send"):
 
 
 if "show_style" in st.session_state and st.session_state.show_style:
-    #style seleection
+    #style sselection
     style = st.selectbox("Choose style:", ["Overconfident Genius", "Nervous Intern", "Sarcastic Reviewer", "Calm Professor"])
     
     if st.button("Generate answer in this style"):

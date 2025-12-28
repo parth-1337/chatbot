@@ -24,15 +24,15 @@ def train_model():
     print("Training complete!")
 
 def get_intent(user_text):
-    # Turn the new text into numbers using the SAME vectorizer
+    # This again turns user's input into numbers
     text_vector = vectorizer.transform([user_text])
     
-    # Predict the category
+    # Predict the intent
     prediction = model.predict(text_vector)
     return prediction[0]
 
 def get_ai_response(user_input, intent, style):
-    # This dictionary decides the AI's "Role" based on the intent
+    # Promt generation
     roles = {
         "Academic": "You are a Teacher. Explain this simply.",
         "Entertainment": "You are a Comedian. Be funny.",
@@ -41,7 +41,7 @@ def get_ai_response(user_input, intent, style):
         "Shopping": "You are a Salesman. Suggest good products."
     }
     
-    # This dictionary decides the "Tone" / Personality
+    
     tones = {
         "Overconfident Genius": "Act like you are smarter than everyone. Be cocky.",
         "Nervous Intern": "Act very nervous and apologize a lot.",
@@ -49,11 +49,10 @@ def get_ai_response(user_input, intent, style):
         "Calm Professor": "Be very calm and patient."
     }
     
-    # Get the specific instructions (Default to "Helper" if not found)
     role_instruction = roles.get(intent, "You are a Helper.")
     tone_instruction = tones.get(style, "Be polite.")
     
-    # Combine them into one prompt for Gemini
+    # CFinal prompt 
     final_prompt = f"""
     SYSTEM INSTRUCTIONS:
     1. {role_instruction}
@@ -68,7 +67,7 @@ def get_ai_response(user_input, intent, style):
     return response.text
 
 def show_style_menu():
-    # Show available styles to choose from
+    #available styles
     styles = ["Overconfident Genius", "Nervous Intern", "Sarcastic Reviewer", "Calm Professor"]
     return styles
 
