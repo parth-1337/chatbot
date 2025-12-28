@@ -1,4 +1,4 @@
-# AI Chatbot
+# Style Adaptive Chatbot
 
 This is a simple chatbot that uses AI to give you answers. It detects what kind of question you're asking and responds in different styles.
 
