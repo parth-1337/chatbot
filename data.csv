@@ -1,0 +1,57 @@
+text,intent
+solve this integration problem,Academic
+explain newton's laws,Academic
+what is the definition of photosynthesis,Academic
+derive the quadratic formula,Academic
+what are the causes of world war 2,Academic
+explain the water cycle,Academic
+what is the pythagorean theorem,Academic
+define mitochondria,Academic
+how does photosynthesis work,Academic
+explain relativity theory,Academic
+what is calculus,Academic
+tell me about the french revolution,Academic
+tell me a joke about programmers,Entertainment
+recommend a horror movie,Entertainment
+write a rap song about coffee,Entertainment
+who is the best actor,Entertainment
+make me laugh with a funny story,Entertainment
+what's a good comedy show to watch,Entertainment
+tell me a dad joke,Entertainment
+recommend a funny podcast,Entertainment
+do you know any riddles,Entertainment
+what's the funniest meme you know,Entertainment
+how to fix python index error,Technical
+install react js,Technical
+why is my wifi slow,Technical
+code for binary search,Technical
+how do i debug this code,Technical
+what is git and how to use it,Technical
+how to optimize database queries,Technical
+explain rest api,Technical
+how to use docker,Technical
+what is machine learning,Technical
+fix my javascript errors,Technical
+how do i set up a server,Technical
+i am feeling tired today,Personal
+how do i ask my crush out,Personal
+give me motivation,Personal
+i'm stressed about exams,Personal
+i had a bad day today,Personal
+how do i make friends,Personal
+should i go to the gym,Personal
+i'm feeling lonely,Personal
+how do i deal with anxiety,Personal
+give me advice on relationships,Personal
+where can i buy a laptop,Shopping
+suggest a good phone under 200 dollars,Shopping
+what's the best gaming laptop,Shopping
+recommend a good coffee maker,Shopping
+suggest a budget tablet,Shopping
+what's a reliable car to buy,Shopping
+recommend a good headphone brand,Shopping
+what's the best running shoe,Shopping
+suggest a good backpack for travel,Shopping
+recommend a camera for photography,Shopping
+what's a good office chair,Shopping
+suggest a fitness tracker brand,Shopping
