@@ -37,9 +37,9 @@ It will open in your browser automatically.
 
 ## Files
 
-- `app.py` - The frontend (what you see)
-- `backend.py` - The chatbot logic
-- `config.py` - Your API key (don't share this!)
+- `app.py` - Streamlit frontend
+- `backend.py` - Model backend
+- `config.py` - Api key
 - `data.csv` - Training data for the classifier
 
 ## How to use
@@ -50,7 +50,6 @@ It will open in your browser automatically.
 4. Click "Generate answer in this style"
 5. Get your answer!
 
-## Don't forget
+## Api key
 
-- Never upload `config.py` to GitHub (it's in .gitignore)
-- The `.venv` folder is also ignored (Python virtual environment)
+- upload your api key in by making a config.py file
